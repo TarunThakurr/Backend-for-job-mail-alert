@@ -26,7 +26,13 @@
         "razorpay": "^2.9.2",
         "winston": "^3.11.0"
     },
+    "config": {
+        "puppeteer": {
+            "skip_download": "true"
+        }
+    },
     "devDependencies": {
         "nodemon": "^3.0.1"
     }
 }
+
